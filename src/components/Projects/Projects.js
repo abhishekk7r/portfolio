@@ -20,31 +20,54 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
+/*const projectDemo =[
+  {
+    title: "Project 1",
+    description: "This is a  really really long description about this project",
+  },
+  {
+    title: "Project 2",
+    description: "This is a  really really long description about this project",
+  },
+  {
+    title: "Project 3",
+    description: "This is a  really really long description about this project",
+  },
+  {
+    title: "Project 4",
+    description: "This is a  really really long description about this project",
+  },
+]; */
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {[
-        {
-          title: "Project1",
-          description: "This is a long description about this project",
-        },
-        {
-          title: "Project1",
-          description: "This is a long description about this project",
-        },
-        {
-          title: "Project1",
-          description: "This is a long description about this project",
-        },
-        {
-          title: "Project1",
-          description: "This is a long description about this project",
-        },
-      ].map((project) => (
-        <div>{project}</div>
-      ))}
+      {projects.map(
+        ({ id, title, tags, description, image, source, visit }) => (
+          <BlogCard key={id}>
+            <Img src={image} />
+            <TitleContent>
+              <HeaderThree title>{title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo>{description}</CardInfo>
+            <div>
+              <TitleContent>Stack</TitleContent>
+              <TagList>
+                {tags.map((tag, i)=>(
+                  <Tag key={i}>{tag}</Tag>
+                ))}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={visit}>Code</ExternalLinks>
+              <ExternalLinks href={source}>Source</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        )
+      )}
     </GridContainer>
   </Section>
 );
