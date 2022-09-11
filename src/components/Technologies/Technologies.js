@@ -20,7 +20,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experince With <br />
-            React.Js
+            React.Js, JavaScript
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -31,7 +31,7 @@ const Technologies = () => (
           <ListTitle>Problem-Solving</ListTitle>
           <ListParagraph>
             Solved 50+ Questions <br />
-            on LeetCode, GFG
+            on LeetCode, GFG, C++
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -61,9 +61,10 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        The purpose of this text is to display text and nothing more. Put the
-        milestone and how did you start learning in a nutshell "Kyu Bana rahe Ho
-        BSDK"
+        I have a strong interest for problem-solving and front-end web
+        development. I enjoy always learning new things. I'm now working on an
+        ECE bachelor's degree. I've done freelance work in the graphic design
+        industry. I love competitive coding and DSA problem-solving.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
