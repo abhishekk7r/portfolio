@@ -35,7 +35,7 @@ export const projects = [
       "This is a code repository for the portfolio you are currenlty visiting. Made using React.js and Next.js",
     image: "/images/4.png",
     tags: ["React.JS", "Next.JS"],
-    source: "https://google.com",
+    source: "https://abhishekk7r.github.io/portfolio",
     visit: "https://github.com/abhishekk7r/portfolio",
     id: 3,
   },
