@@ -62,7 +62,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         I have a strong interest for problem-solving and front-end web
-        development. I enjoy always learning new things. I'm now working on an
+        development. I have always enjoyed learning new things. I'm now working on an
         ECE bachelor's degree. I've done freelance work in the graphic design
         industry. I love competitive coding and DSA problem-solving.
       </SectionText>
