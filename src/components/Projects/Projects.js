@@ -39,6 +39,8 @@ import { projects } from "../../constants/constants";
   },
 ]; */
 
+const prefix = "/portfolio";
+
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
@@ -47,7 +49,7 @@ const Projects = () => (
       {projects.map(
         ({ id, title, tags, description, image, source, visit }) => (
           <BlogCard key={id}>
-            <Img src={image} />
+            <Img src={prefix + image} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
               <Hr />
