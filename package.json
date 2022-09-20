@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "export": "next export",
+    "build": "next build",
+    "export": "next export && echo 'www.abhishekkr.tech' > ./out/CNAME",
     "start": "next start"
   },
   "dependencies": {
