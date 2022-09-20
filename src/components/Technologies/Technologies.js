@@ -30,7 +30,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Problem-Solving</ListTitle>
           <ListParagraph>
-            Solved 50+ Questions <br />
+            Solved 100+ Questions <br />
             on LeetCode, GFG, C++
           </ListParagraph>
         </ListContainer>
