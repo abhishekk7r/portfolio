@@ -61,10 +61,12 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I have a strong interest for problem-solving and front-end web
-        development. I have always enjoyed learning new things. I'm now working on an
-        ECE bachelor's degree. I've done freelance work in the graphic design
-        industry. I love competitive coding and DSA problem-solving.
+        I am passionate about problem-solving and back-end development,
+        particularly with Java, Spring Boot, and Angular.
+        My experience includes collaborating with clients to enhance large-scale systems and optimizing application performance.
+        I enjoy learning new technologies and best coding practices while implementing efficient solutions like REST APIs and batch processing.
+        With a strong foundation in data processing and a focus on maintainability,
+        I strive for excellence in every project I undertake.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

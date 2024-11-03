@@ -9,8 +9,10 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I have worked with a range of Technologies in the Web-Development and I do
-      problem solving on LeetCode, GFG and CodeStudio Using C++.
+      Frontend Technologies: React.js, AngularJS, JavaScript, Bootstrap, HTML, CSS
+      Backend Technologies: Java, Spring Boot, SQL, PLSQL, REST API, Microservices, Object-Oriented Programming (OOP)
+      Development Tools: Git, GitHub, VSCode, Eclipse, Postman
+      Core Competencies: Data Structures, Algorithms, OOP with Java
     </SectionText>
     <List>
       <ListItem>
@@ -19,7 +21,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experince With <br />
+            Experience With <br />
             React.Js, JavaScript
           </ListParagraph>
         </ListContainer>
@@ -30,7 +32,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Problem-Solving</ListTitle>
           <ListParagraph>
-            Solved 100+ Questions <br />
+            Solved 500+ Questions <br />
             on LeetCode, GFG, C++
           </ListParagraph>
         </ListContainer>
@@ -39,10 +41,10 @@ const Technologies = () => (
         <SiFigma size="3rem" />
         <br />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Backend Technologies</ListTitle>
           <ListParagraph>
-            Experince With <br />
-            tools like Figma, Photoshop
+            Experience With <br />
+            tools like Java, Spring Boot, SQL, PLSQL, REST API, Microservices
           </ListParagraph>
         </ListContainer>
       </ListItem>
