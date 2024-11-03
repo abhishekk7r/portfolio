@@ -16,7 +16,7 @@ const Hero = () => (
         Abhishek Kumar
       </SectionTitle>
       <SectionText>
-        I am a dedicated Software Engineer with 1.5 years of experience in full-stack development,
+        I am a dedicated Software Engineer with over 1.5 years of experience in full-stack development,
         specializing in building efficient, scalable, and user-centric applications using modern technologies
         such as AngularJS, ReactJS, and Spring Boot.
       </SectionText>
